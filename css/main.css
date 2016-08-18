@@ -1,0 +1,65 @@
+nav {
+	width: 100%;
+	min-height: 36px;
+	background-color: lightblue;
+	text-align: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+nav li {
+	display:inline-block;
+	list-style: none;
+	padding: 10px 30px;
+}
+
+nav a {
+	text-decoration: none;
+}
+
+section {
+	height: 1600px;
+	padding-top: 40px;
+}
+
+#home {
+	background-color: beige;
+}
+
+#about {
+	background-color: pink;
+}
+
+#resume {
+	background-color: lightgreen;
+}
+
+#projects {
+	background-color: grey;
+}
+
+.current a {
+	text-decoration: underline;
+}
+
+#menu-icon {
+	display: none;
+	position: fixed;
+	top: 0;
+	right: 0;
+}
+
+@media (max-width: 768px) {
+	nav ul {
+		display: none;
+	}
+
+	nav li {
+		display: block;
+	}
+
+	#menu-icon {
+		display: block;
+	}
+}
