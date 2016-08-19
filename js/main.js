@@ -18,3 +18,6 @@ $(window).resize(function () {
 	}
 
 });
+
+// add paralax (stellar.js)
+$.stellar();

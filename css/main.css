@@ -19,24 +19,116 @@ nav a {
 }
 
 section {
-	height: 1600px;
+	height: 600px;
 	padding-top: 40px;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#box1 {
+	position: fixed;
+	bottom: 10px;
+	left: 10px;
+	height: 50px;
+	width: 50px;
+	background-color: white;
+	border: 1px solid black;
+}
+
+#box2 {
+	position: fixed;
+	bottom: -1010px;
+	left: 40px;
+	height: 50px;
+	width: 50px;
+	background-color: white;
+	border: 1px solid black;
+}
+
+#box3 {
+	position: fixed;
+	bottom: -110px;
+	left: 70px;
+	height: 50px;
+	width: 50px;
+	background-color: white;
+	border: 1px solid black;
+}
+
+#box4 {
+	position: fixed;
+	bottom: -110px;
+	right: 70px;
+	height: 50px;
+	width: 50px;
+	background-color: white;
+	border: 1px solid black;
+}
+
+#box5 {
+	position: fixed;
+	bottom: -110px;
+	right: 70px;
+	height: 50px;
+	width: 50px;
+	background-color: white;
+	border: 1px solid black;
+}
+
+#box6 {
+	position: fixed;
+	bottom: -110px;
+	right: 70px;
+	height: 50px;
+	width: 50px;
+	background-color: white;
+	border: 1px solid black;
+}
+
+#box7 {
+	position: fixed;
+	top: -110px;
+	left: 70px;
+	height: 50px;
+	width: 50px;
+	background-color: white;
+	border: 1px solid black;
+}
+
+#box8 {
+	position: fixed;
+	top: -110px;
+	left: 70px;
+	height: 50px;
+	width: 50px;
+	background-color: white;
+	border: 1px solid black;
+}
+
+#box9 {
+	position: fixed;
+	top: -110px;
+	left: 70px;
+	height: 50px;
+	width: 50px;
+	background-color: white;
+	border: 1px solid black;
 }
 
 #home {
-	background-color: beige;
+	background-image: url(http://markdalgleish.com/projects/stellar.js/demos/images/summer.jpg);
 }
 
 #about {
-	background-color: pink;
+	background-image: url(http://markdalgleish.com/projects/stellar.js/demos/images/autumn.jpg);
 }
 
 #resume {
-	background-color: lightgreen;
+	background-image: url(http://markdalgleish.com/projects/stellar.js/demos/images/winter.jpg);
 }
 
 #projects {
-	background-color: grey;
+	background-image: url(http://markdalgleish.com/projects/stellar.js/demos/images/spring.jpg);
 }
 
 .current a {
